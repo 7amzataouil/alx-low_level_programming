@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - assigns random number to the variable n then prints the last digit of it
+ * main - assigns random number to the variable n 
+ * then prints the last digit of it
  *
  * Return: Value 0 means successful
  */
