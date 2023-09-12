@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * main - prints _putchar
+ *
+ * Return: Value 0 means successful
  */
 
 int main(void)
