@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * _strlen - return the length
+ * @s: sting var
+ * Return: length
  */
 int _strlen(char *s)
 {
