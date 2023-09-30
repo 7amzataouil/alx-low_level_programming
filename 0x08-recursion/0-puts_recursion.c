@@ -3,18 +3,15 @@
  * _puts_recursion - recursive of puts()
  * @s: pointer to be printed
  *
- * Return: void
+ * Return: succesful value 1
  */
 void _puts_recursion(char *s)
 {
-	if (s == NULL)
-		return;
-
-	if (*s != '\0')
+	if (*s == 0)
 	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
-	}
-	else
 		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
