@@ -1,10 +1,10 @@
 #include "main.h"
-int _strlen_recursion(char *s)
 /**
  * _strlen_recursion - Returns the length.
  * Return: String's length.
  */
 
+int _strlen_recursion(char *s)
 {
 	int len = 0;
 
